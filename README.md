@@ -2,8 +2,8 @@
 
 This repository contains my documented incident response investigations, analysing various attack vectors using SIEM, EDR, and OSINT telemetry. I am actively building my foundational SOC skills, and these reports serve as a continuous, practical record of my training in triaging alerts, investigating malicious activity, and producing professional incident documentation.
 
-### Endpoint & Malware Investigations
-These reports document the triage and analysis of endpoint compromises, malicious executables, and Command & Control (C2) activity.
+### LetsDefend Endpoint & Malware Investigations
+These reports document the triage and analysis of endpoint compromises, malicious executables, and Command & Control (C2) activity on the LetsDefend SOC Training Platform.
 
 | Alert & Investigation | Attack Category |
 | :--- | :--- |
@@ -26,8 +26,8 @@ These reports document the triage and analysis of endpoint compromises, maliciou
 
 ---
 
-### Web Application Investigations
-These reports document the analysis of web server traffic, HTTP requests, and common web-based attack vectors.
+### LetsDefend Web Application Investigations
+These reports document the analysis of web server traffic, HTTP requests, and common web-based attack vectors on LetsDefend.
 
 | Alert & Investigation | Attack Category |
 | :--- | :--- |
