@@ -9,6 +9,7 @@ These reports document the triage and analysis of endpoint compromises, maliciou
 | :--- | :--- |
 | [SOC104 - Malware Detected](lets_defend/SOC104_Malware-Detected_84_Malware.pdf) | Malware |
 | [SOC109 - Emotet Malware Detected](lets_defend/SOC109_Emotet-Malware-Detected_85_Malware.pdf) | Malware / Trojan |
+| [SOC128 - Malicious File Upload Attempt](lets_defend/SOC128_Malicious-File-Upload-Attempt_62_Malware.pdf) | Malicious File Upload |
 | [SOC131 - Reverse TCP Backdoor Detected](lets_defend/SOC131_Reverse-TCP-Backdoor-Detected_67_Malware.pdf) | C2 / Backdoor |
 | [SOC132 - Same Malicious File Found on Multiple Sources](lets_defend/SOC132_Same-Malicious-File-Found-on-Multiple-Sources_68_Malware.pdf) | Malware / Spread |
 | [SOC134 - Suspicious WMI Activity (Event 71)](lets_defend/SOC134_Suspicious-WMI-Activity_71_Malware.pdf) | Ransomware / WMI |
