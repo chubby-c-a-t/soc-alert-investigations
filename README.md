@@ -63,7 +63,7 @@ These reports document the analysis of web server traffic, HTTP requests, and co
 | [SOC168 - Whoami Command Detected in Request Body](lets_defend/SOC168_Whoami-Command-Detected-in-Request-Body_118_Web_Attack.pdf) | Command Injection |
 | [SOC169 - Possible IDOR Attack Detected](lets_defend/SOC169_Possible-IDOR-Attack-Detected_Event-119_Web-Attack.pdf) | IDOR |
 | [SOC175 - PowerShell Found in Requested URL (Possible CVE-2022-41082)](lets_defend/SOC175_PowerShell-Found-in-Requested-URL-Possible-CVE-2022-41082-Exploitation_125_Web-Attack.pdf) | RCE / Web Exploit |
-| [SOC227 - Microsoft SharePoint Server Elevation of Privilege (CVE-2023-29357)](lets_defend/SOC227_Microsoft-SharePoint-Server-Elevation-of-Privilege - Possible-CVE-2023-29357-Exploitation_189_Web-Attack.pdf) | Web Exploit / CVE |
+| [SOC227 - Microsoft SharePoint Server Elevation of Privilege (CVE-2023-29357)](lets_defend/SOC227_Microsoft-SharePoint-Server-Elevation-of-Privilege-Possible-CVE-2023-29357-Exploitation_189_Web-Attack.pdf) | Web Exploit / CVE |
 | [SOC235 - Atlassian Confluence Broken Access Control 0-Day (CVE-2023-22515)](lets_defend/SOC235_Atlassian-Confluence-Broken-Access-Control-0-Day-CVE-2023-22515_197_Web-Attack.pdf) | Zero-Day Exploit |
 | [SOC246 - Forced Authentication Detected](lets_defend/SOC246_Forced-Authentication-Detected_208_Web-Attack.pdf) | Brute Force |
 | [SOC274 - Palo Alto Networks PAN-OS Command Injection Vulnerability Exploitation (CVE-2024-3400)](lets_defend/SOC274_Palo-Alto-Networks-PAN-OS-Command-Injection-Vulnerability-Exploitation-(CVE-2024-3400)_249_Web-Attack.pdf) | Command Injection / CVE |
