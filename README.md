@@ -1,6 +1,6 @@
-# SOC Alert Investigations
+# LetsDefend SOC Alert Investigations
 
-This repository contains my documented incident response investigations, analysing various attack vectors using SIEM, EDR, and OSINT telemetry. I am actively building my foundational SOC skills, and these reports serve as a continuous, practical record of my training in triaging alerts, investigating malicious activity, and producing professional incident documentation.
+This repository contains my documented investigations, analysing various attack vectors from the LetsDefend SOC learning platform (simulating a real SOC environment). I am actively building my foundational SOC skills, and these reports serve as a continuous, practical record of my training in triaging alerts, investigating malicious activity, and producing professional incident documentation.
 
 ---
 
