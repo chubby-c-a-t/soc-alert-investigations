@@ -1,6 +1,6 @@
 # LetsDefend SOC Alert Investigations
 
-This repository contains my documented investigations, analysing various attack vectors from the LetsDefend SOC learning platform (simulating a real SOC environment). I am actively building my foundational SOC skills, and these reports serve as a continuous, practical record of my training in triaging alerts, investigating malicious activity, and producing professional incident documentation.
+This repository contains my documented investigations, analysing various attack vectors from the LetsDefend SOC learning platform (simulating a real SOC environment). I am actively building my foundational SOC skills, and these reports serve as a continuous, practical record of my training in triaging alerts, investigating malicious activity, and producing incident documentation.
 
 ---
 
@@ -24,6 +24,8 @@ These reports document the triage and analysis of endpoint compromises, maliciou
 | [SOC116 - DNS Hijacking Detected](lets_defend/SOC116_DNS-Hijacking-Detected_49_Malware.pdf) | DNS Hijacking |
 | [SOC117 - Suspicious .reg File](lets_defend/SOC117_Suspicious-.reg-File_50_Malware.pdf) | Persistence |
 | [SOC118 - Internal Port Scan Activity](lets_defend/SOC118_Internal-Port-Scan-Activity_51_Malware.pdf) | Network Scan |
+| [SOC119 - Proxy Malicious Executable File Detected (Event 79)](lets_defend/SOC119_Proxy_Malicious-Executable-File-Detected_79_Proxy.pdf) | Malicious Executable |
+| [SOC119 - Proxy Malicious Executable File Detected (Event 83)](lets_defend/SOC119_Proxy_Malicious-Executable-File-Detected_83_Proxy.pdf) | Malicious Executable |
 | [SOC124 - Scheduled Task Created](lets_defend/SOC124_Scheduled-Task-Created_57_Malware.pdf) | Persistence |
 | [SOC125 - Suspicious Rundll32 Activity](lets_defend/SOC125_Suspicious-Rundll32-Activity_58_Malware.pdf) | LOLBin |
 | [SOC126 - Suspicious New Autorun Value Detected](lets_defend/SOC126_Suspicious-New-Autorun-Value-Detected_61_Malware.pdf) | Persistence |
@@ -57,6 +59,7 @@ These reports document the analysis of web server traffic, HTTP requests, and co
 | Alert & Investigation | Attack Category |
 | :--- | :--- |
 | [SOC127 - SQL Injection Detected](lets_defend/SOC127_SQL-Injection-Detected_235_Web-Attack.pdf) | SQL Injection |
+| [SOC142 - Multiple HTTP 500 Response (Event 89)](lets_defend/SOC142_Multiple-HTTP-500-Response_89_Proxy.pdf) | Web Attack |
 | [SOC165 - Possible SQL Injection Payload Detected](lets_defend/SOC165_Possible-SQL-Injection-Payload-Detected_115_Web-Attack.pdf) | SQL Injection |
 | [SOC166 - Javascript Code Detected in Requested URL](lets_defend/SOC166_Javascript-Code-Detected-in-Requested-URL_116_Web-Attack.pdf) | Cross-Site Scripting (XSS) |
 | [SOC167 - LS Command Detected in Requested URL](lets_defend/SOC167_LS-Command-Detected-in-Requested-URL_117_Web-Attack.pdf) | Command Injection |
@@ -65,6 +68,7 @@ These reports document the analysis of web server traffic, HTTP requests, and co
 | [SOC175 - PowerShell Found in Requested URL (Possible CVE-2022-41082)](lets_defend/SOC175_PowerShell-Found-in-Requested-URL-Possible-CVE-2022-41082-Exploitation_125_Web-Attack.pdf) | RCE / Web Exploit |
 | [SOC227 - Microsoft SharePoint Server Elevation of Privilege (CVE-2023-29357)](lets_defend/SOC227_Microsoft-SharePoint-Server-Elevation-of-Privilege-Possible-CVE-2023-29357-Exploitation_189_Web-Attack.pdf) | Web Exploit / CVE |
 | [SOC235 - Atlassian Confluence Broken Access Control 0-Day (CVE-2023-22515)](lets_defend/SOC235_Atlassian-Confluence-Broken-Access-Control-0-Day-CVE-2023-22515_197_Web-Attack.pdf) | Zero-Day Exploit |
+| [SOC239 - Remote Code Execution Detected in Splunk Enterprise](lets_defend/SOC239_Remote-Code-Execution-Detected-in-Splunk-Enterprise_201_Unauthorized-Access.pdf) | RCE / Unauthorized Access |
 | [SOC246 - Forced Authentication Detected](lets_defend/SOC246_Forced-Authentication-Detected_208_Web-Attack.pdf) | Brute Force |
 | [SOC274 - Palo Alto Networks PAN-OS Command Injection Vulnerability Exploitation (CVE-2024-3400)](lets_defend/SOC274_Palo-Alto-Networks-PAN-OS-Command-Injection-Vulnerability-Exploitation-(CVE-2024-3400)_249_Web-Attack.pdf) | Command Injection / CVE |
 | [SOC287 - Arbitrary File Read on Checkpoint Security Gateway (CVE-2024-24919)](lets_defend/SOC287_Arbitrary-File-Read-on-Checkpoint-Security-Gateway_[CVE-2024-24919]_263_Web-Attack.pdf) | Arbitrary File Read |
@@ -78,6 +82,12 @@ These reports cover the analysis of malicious emails, attachments, and social en
 
 | Alert & Investigation | Attack Category |
 | :--- | :--- |
+| [SOC101 - Phishing Mail Detected (Event 41)](lets_defend/SOC101_Phishing-Mail-Detected_41_Exchange.pdf) | Phishing |
+| [SOC101 - Phishing Mail Detected (Event 87)](lets_defend/SOC101_Phishing-Mail-Detected_87_Exchange.pdf) | Phishing |
+| [SOC114 - Malicious Attachment Detected Phishing Alert](lets_defend/SOC114_Malicious-Attachment-Detected-Phishing-Alert_45_Exchange.pdf) | Malicious Attachment |
+| [SOC120 - Phishing Mail Detected Internal to Internal](lets_defend/SOC120_Phishing-Mail-Detected-Internal-to-Internal_52_Exchange.pdf) | Internal Phishing |
+| [SOC140 - Phishing Mail Detected Suspicious Task Scheduler](lets_defend/SOC140_Phishing-Mail-Detected-Suspicious-Task-Scheduler_82_Exchange.pdf) | Phishing / Persistence |
+| [SOC141 - Phishing URL Detected (Event 86)](lets_defend/SOC141_Phishing-URL-Detected_86_Proxy.pdf) | Phishing URL |
 | [SOC146 - Phishing Mail Detected - Excel 4.0 Macros](lets_defend/SOC146_Phishing-Mail-Detected-Excel-4.0-Macros_93_Exchange.docx.pdf) | Phishing / Malicious Attachment |
 | [SOC251 - Quishing Detected (QR Code Phishing)](lets_defend/SOC251_Quishing-Detected-(QR-Code-Phishing)_214_Exchange.pdf) | Quishing / Social Engineering |
 
@@ -88,8 +98,11 @@ These reports focus on attempts to compromise authentication mechanisms and bypa
 
 | Alert & Investigation | Attack Category |
 | :--- | :--- |
+| [SOC135 - Multiple FTP Connection Attempt (Event 72)](lets_defend/SOC135_Multiple-FTP-Connection-Attempt_72_Proxy.pdf) | Brute Force |
 | [SOC176 - RDP Brute Force Detected](lets_defend/SOC176_RDP-Brute-Force-Detected_234_Brute-Force.pdf) | Brute Force |
 | [SOC210 - Possible Brute Force Detected on VPN](lets_defend/SOC210_Possible-Brute-Force-Detected-on-VPN_162_Brute-Force.pdf) | Brute Force |
+| [SOC257 - VPN Connection Detected from Unauthorized Country](lets_defend/SOC257_VPN-Connection-Detected-from-Unauthorized-Country_225_Unauthorized-Access.pdf) | Unauthorized Access |
+| [SOC275 - Application Token Steal Attempt Detected (Event 250)](lets_defend/SOC275_Application-Token-Steal-Attempt-Detected_250_Proxy.pdf) | Token Theft |
 
 ---
 
@@ -98,6 +111,8 @@ These reports detail investigations into unauthorised data exfiltration and tool
 
 | Alert & Investigation | Attack Category |
 | :--- | :--- |
+| [SOC136 - Data Leak via Mailbox Forwarding Detected](lets_defend/SOC136_Data-Leak-via-Mailbox-Forwarding-Detected_74_Exchange.pdf) | Data Leakage |
+| [SOC143 - Password Stealer Detected](lets_defend/SOC143_Password-Stealer-Detected_90_Exchange.pdf) | Info Stealer |
 | [SOC202 - FakeGPT Malicious Chrome Extension](lets_defend/SOC202_FakeGPT-Malicious-Chrome-Extension_153_Data-Leakage.pdf) | Data Leakage / Browser Extension |
 | [SOC250 - APT35 HyperScrape Data Exfiltration Tool Detected](lets_defend/SOC250_APT35-HyperScrape-Data-Exfiltration-Tool-Detected_212_Data-Leakage.pdf) | Data Exfiltration / APT |
 | [SOC338 - Lumma Stealer DLL Side-Loading via Click-Fix Phishing](lets_defend/SOC338_Lumma-Stealer-DLL-Side-Loading-via-Click-Fix-Phishing_316_Data-Leakage.pdf) | Info Stealer / Phishing |
@@ -110,4 +125,5 @@ These investigations rely heavily on cross-referencing external telemetry and op
 | Alert & Investigation | Attack Category |
 | :--- | :--- |
 | [SOC105 - Requested T.I. URL address](lets_defend/SOC105_Requested-T.I.-URL-address_75_ThreatIntel.docx.pdf) | Threat Intelligence |
+| [SOC133 - Suspicious Request to New Registered Domain (Event 69)](lets_defend/SOC133_Suspicious-Request-to-New-Registered-Domain_69_Proxy.pdf) | Suspicious Domain |
 | [SOC326 - Impersonating Domain MX Record Change Detected](lets_defend/SOC326_Impersonating-Domain-MX-Record-Change-Detected_304_ThreatIntel.pdf) | Threat Intelligence / DNS |
