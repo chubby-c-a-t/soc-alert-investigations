@@ -16,9 +16,11 @@ These reports document the triage and analysis of endpoint compromises, maliciou
 | [SOC106 - Found Suspicious File - TI Data](lets_defend/SOC106_Found-Suspicious-File-TI-Data_17_Malware.pdf) | Suspicious File |
 | [SOC107 - Privilege Escalation Detected (Event 19)](lets_defend/SOC107_Privilege-Escalation-Detected_19_Malware.pdf) | Privilege Escalation |
 | [SOC107 - Privilege Escalation Detected (Event 48)](lets_defend/SOC107_Privilege-Escalation-Detected_48_Malware.pdf) | Privilege Escalation |
-| [SOC108 - Malicious Remote Access Software Detected](lets_defend/SOC108_Malicious-Remote-Access-Software-Detected_38_Malware.pdf) | Remote Access |
+| [SOC108 - Malicious Remote Access Software Detected (Event 38)](lets_defend/SOC108_Malicious-Remote-Access-Software-Detected_38_Malware.pdf) | Remote Access |
+| [SOC108 - Malicious Remote Access Software Detected (Event 54)](lets_defend/SOC108_Malicious-Remote-Access-Software-Detected_54_Proxy.pdf) | Remote Access |
 | [SOC109 - Emotet Malware Detected (Event 39)](lets_defend/SOC109_Emotet-Malware-Detected_39_Malware.pdf) | Malware / Trojan |
 | [SOC109 - Emotet Malware Detected (Event 85)](lets_defend/SOC109_Emotet-Malware-Detected_85_Malware.pdf) | Malware / Trojan |
+| [SOC112 - Traffic to Blacklisted IP (Event 43)](lets_defend/SOC112_Traffic-to-Blacklisted-IP_43_Proxy.pdf) | Malware / C2 |
 | [SOC113 - Suspicious hh.exe Usage](lets_defend/SOC113_Suspicious-hh.exe-Usage_44_Malware.pdf) | LOLBin |
 | [SOC115 - Wscript.exe Usage as Dropper](lets_defend/SOC115_Wscript.exe-Usage-as-Dropper_47_Malware.pdf) | Dropper |
 | [SOC116 - DNS Hijacking Detected](lets_defend/SOC116_DNS-Hijacking-Detected_49_Malware.pdf) | DNS Hijacking |
@@ -26,6 +28,8 @@ These reports document the triage and analysis of endpoint compromises, maliciou
 | [SOC118 - Internal Port Scan Activity](lets_defend/SOC118_Internal-Port-Scan-Activity_51_Malware.pdf) | Network Scan |
 | [SOC119 - Proxy Malicious Executable File Detected (Event 79)](lets_defend/SOC119_Proxy_Malicious-Executable-File-Detected_79_Proxy.pdf) | Malicious Executable |
 | [SOC119 - Proxy Malicious Executable File Detected (Event 83)](lets_defend/SOC119_Proxy_Malicious-Executable-File-Detected_83_Proxy.pdf) | Malicious Executable |
+| [SOC121 - Proxy Malicious Executable File Detected (Event 53)](lets_defend/SOC121_Proxy_Malicious-Executable-File-Detected_53_Proxy.pdf) | Malware Download |
+| [SOC123 - Enumeration Tool Detected (Event 56)](lets_defend/SOC123_Enumeration-Tool-Detected_56_Proxy.pdf) | Enumeration / Recon |
 | [SOC124 - Scheduled Task Created](lets_defend/SOC124_Scheduled-Task-Created_57_Malware.pdf) | Persistence |
 | [SOC125 - Suspicious Rundll32 Activity](lets_defend/SOC125_Suspicious-Rundll32-Activity_58_Malware.pdf) | LOLBin |
 | [SOC126 - Suspicious New Autorun Value Detected](lets_defend/SOC126_Suspicious-New-Autorun-Value-Detected_61_Malware.pdf) | Persistence |
@@ -49,6 +53,7 @@ These reports document the triage and analysis of endpoint compromises, maliciou
 | [SOC205 - Malicious Macro has been executed](lets_defend/SOC205_Malicious-Macro-has-been-executed_231_Malware.pdf) | Malicious Macro |
 | [SOC211 - Utilman.exe Winlogon Exploit Attempt](lets_defend/SOC211_Utilman.exe-Winlogon-Exploit-Attempt_161_LOLBin.pdf) | Privilege Escalation |
 | [SOC289 - Suspicious Invoke-WebRequest Execution With DirectIP](lets_defend/SOC289_Suspicious-Invoke-WebRequest-Execution-With-DirectIP_265_Malware.pdf) | PowerShell / Download |
+| [SOC335 - CVE-2024-49138 Exploitation Detected](lets_defend/SOC335_CVE-2024-49138-Exploitation-Detected_313_Privilege-Escalation.pdf) | Privilege Escalation / CVE |
 | [SOC336 - Windows OLE Zero-Click RCE Exploitation Detected (CVE-2025-21298)](lets_defend/SOC336_Windows-OLE-Zero-Click-RCE-Exploitation-Detected-(CVE-2025-21298)_314_Malware.pdf) | Zero-Click / CVE |
 
 ---
@@ -58,13 +63,16 @@ These reports document the analysis of web server traffic, HTTP requests, and co
 
 | Alert & Investigation | Attack Category |
 | :--- | :--- |
-| [SOC127 - SQL Injection Detected](lets_defend/SOC127_SQL-Injection-Detected_235_Web-Attack.pdf) | SQL Injection |
+| [SOC127 - SQL Injection Detected (Event 60)](lets_defend/SOC127_SQL-Injection-Detected_60_Proxy.pdf) | SQL Injection |
+| [SOC127 - SQL Injection Detected (Event 235)](lets_defend/SOC127_SQL-Injection-Detected_235_Web-Attack.pdf) | SQL Injection |
+| [SOC129 - Successful Local File Inclusion (Event 63)](lets_defend/SOC129_Successful-Local-File-Inclusion_63_Proxy.pdf) | Local File Inclusion |
 | [SOC142 - Multiple HTTP 500 Response (Event 89)](lets_defend/SOC142_Multiple-HTTP-500-Response_89_Proxy.pdf) | Web Attack |
 | [SOC165 - Possible SQL Injection Payload Detected](lets_defend/SOC165_Possible-SQL-Injection-Payload-Detected_115_Web-Attack.pdf) | SQL Injection |
 | [SOC166 - Javascript Code Detected in Requested URL](lets_defend/SOC166_Javascript-Code-Detected-in-Requested-URL_116_Web-Attack.pdf) | Cross-Site Scripting (XSS) |
 | [SOC167 - LS Command Detected in Requested URL](lets_defend/SOC167_LS-Command-Detected-in-Requested-URL_117_Web-Attack.pdf) | Command Injection |
 | [SOC168 - Whoami Command Detected in Request Body](lets_defend/SOC168_Whoami-Command-Detected-in-Request-Body_118_Web_Attack.pdf) | Command Injection |
 | [SOC169 - Possible IDOR Attack Detected](lets_defend/SOC169_Possible-IDOR-Attack-Detected_Event-119_Web-Attack.pdf) | IDOR |
+| [SOC170 - Passwd Found in Requested URL (Event 120)](lets_defend/SOC170_Passwd-Found-in-Requested-URL-Possible-LFI-Attack_120_Web-Attack.pdf) | Local File Inclusion |
 | [SOC175 - PowerShell Found in Requested URL (Possible CVE-2022-41082)](lets_defend/SOC175_PowerShell-Found-in-Requested-URL-Possible-CVE-2022-41082-Exploitation_125_Web-Attack.pdf) | RCE / Web Exploit |
 | [SOC227 - Microsoft SharePoint Server Elevation of Privilege (CVE-2023-29357)](lets_defend/SOC227_Microsoft-SharePoint-Server-Elevation-of-Privilege-Possible-CVE-2023-29357-Exploitation_189_Web-Attack.pdf) | Web Exploit / CVE |
 | [SOC235 - Atlassian Confluence Broken Access Control 0-Day (CVE-2023-22515)](lets_defend/SOC235_Atlassian-Confluence-Broken-Access-Control-0-Day-CVE-2023-22515_197_Web-Attack.pdf) | Zero-Day Exploit |
@@ -124,6 +132,7 @@ These investigations rely heavily on cross-referencing external telemetry and op
 
 | Alert & Investigation | Attack Category |
 | :--- | :--- |
+| [SOC102 - Proxy Suspicious URL Detected (Event 66)](lets_defend/SOC102_Proxy_Suspicious-URL-Detected_66_Proxy.pdf) | Suspicious URL |
 | [SOC105 - Requested T.I. URL address](lets_defend/SOC105_Requested-T.I.-URL-address_75_ThreatIntel.docx.pdf) | Threat Intelligence |
 | [SOC133 - Suspicious Request to New Registered Domain (Event 69)](lets_defend/SOC133_Suspicious-Request-to-New-Registered-Domain_69_Proxy.pdf) | Suspicious Domain |
 | [SOC326 - Impersonating Domain MX Record Change Detected](lets_defend/SOC326_Impersonating-Domain-MX-Record-Change-Detected_304_ThreatIntel.pdf) | Threat Intelligence / DNS |
