@@ -1,6 +1,6 @@
 # LetsDefend SOC Alert Investigations
 
-This repository contains my documented investigations, analysing various attack vectors from the LetsDefend SOC learning platform (simulating a real SOC environment). I am actively building my foundational SOC skills, and these reports serve as a continuous, practical record of my training in triaging alerts, investigating malicious activity, and producing incident documentation.
+This repository contains my documented investigations, analysing various attack vectors from the LetsDefend SOC learning platform (simulating a real SOC environment). I am actively building my foundational SOC skills, and these reports serve as a practical record of my training in triaging alerts, investigating malicious activity, and producing incident documentation.
 
 ---
 
@@ -128,7 +128,7 @@ These reports detail investigations into unauthorised data exfiltration and tool
 ---
 
 ### Threat Intelligence & OSINT
-These investigations rely heavily on cross-referencing external telemetry and open-source intelligence to identify broader attack infrastructure.
+These investigations rely on cross-referencing external telemetry and open-source intelligence to identify broader attack infrastructure.
 
 | Alert & Investigation | Attack Category |
 | :--- | :--- |
