@@ -1,8 +1,23 @@
-# LetsDefend SOC Alert Investigations
+# SOC Alert Investigations
 
 This repository contains my documented investigations, analysing various attack vectors from the LetsDefend SOC learning platform (simulating a real SOC environment). I am actively building my foundational SOC skills, and these reports serve as a practical record of my training in triaging alerts, investigating malicious activity, and producing incident documentation.
 
 ---
+
+## TryHackMe Investigations
+These reports document investigations from the TryHackMe SOC simulation, covering phishing analysis, firewall log review, and threat intelligence triage. I like that TryHackMe uses a real SIEM for these investigations but sadly they do not have as much content as LetsDefend for regular users (you need a business plan).
+
+### Introduction to Phishing
+| Alert & Investigation | Attack Category |
+| :--- | :--- |
+| [8814 - Inbound Email Containing Suspicious External Link](tryhackme/01_tryhackme_introduction_to_phishing_all_alerts/8814%20Inbound%20Email%20Containing%20Suspicious%20External%20Link.pdf) | Phishing |
+| [8815 - Inbound Email Containing Suspicious External Link](tryhackme/01_tryhackme_introduction_to_phishing_all_alerts/8815%20Inbound%20Email%20Containing%20Suspicious%20External%20Link.pdf) | Phishing |
+| [8816 - Access to Blacklisted External URL Blocked by Firewall](tryhackme/01_tryhackme_introduction_to_phishing_all_alerts/8816%20Access%20to%20Blacklisted%20External%20URL%20Blocked%20by%20Firewall.pdf) | Threat Intelligence / Firewall |
+| [8817 - Inbound Email Containing Suspicious External Link](tryhackme/01_tryhackme_introduction_to_phishing_all_alerts/8817%20Inbound%20Email%20Containing%20Suspicious%20External%20Link.pdf) | Phishing |
+
+---
+
+## LetsDefend SOC Alert Investigations
 
 ### Endpoint & Malware Investigations
 These reports document the triage and analysis of endpoint compromises, malicious executables, LOLBin abuse, and Command & Control (C2) activity.
